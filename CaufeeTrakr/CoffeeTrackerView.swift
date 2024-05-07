@@ -38,7 +38,7 @@ struct CoffeeTrackerView: View {
             
             // Display a button that lets the user record new drinks.
             Button(action: { self.showDrinkList.toggle() }) {
-                Image("add-coffee")
+                Image(systemName: "cup.and.saucer")
                     .renderingMode(.template)
             }
         }
