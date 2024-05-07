@@ -1,0 +1,35 @@
+//
+//  Drink.swift
+//  CaufeeTrakr
+//
+//  Created by Jeff Martin on 5/7/24.
+//
+
+import Foundation
+
+struct Drink: Hashable, Codable {
+    
+    // The amount of caffeine in the drink.
+    let mgCaffeine: Double
+    
+    // The date when the drink was consumed.
+    let date: Date
+    
+    // A globally unique identifier for the drink.
+    let uuid: UUID
+    
+    // The drink initializer.
+    init(mgCaffeine: Double, onDate date: Date, uuid: UUID = UUID()) {
+        self.mgCaffeine = mgCaffeine
+        self.date = date
+        self.uuid = uuid
+    }
+    
+    // Calculate the amount of caffeine remaining at the provided time,
+    // based on a 5-hour half life.
+    public func caffeineRemaining(at targetDate: Date) -> Double {
+        // Calculate the number of half-life time periods (5-hour increments)
+        let intervals = targetDate.timeIntervalSince(date) / (60.0 * 60.0 * 5.0)
+        return mgCaffeine * pow(0.5, intervals)
+    }
+}
