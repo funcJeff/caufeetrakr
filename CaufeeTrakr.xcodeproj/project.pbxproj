@@ -13,6 +13,9 @@
 		1F4A63CE2BEACB18000119EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4A63CD2BEACB18000119EE /* Preview Assets.xcassets */; };
 		1F4A63D52BEACD80000119EE /* CoffeeDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A63D42BEACD80000119EE /* CoffeeDataStore.swift */; };
 		1F4A63D72BEACDA6000119EE /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A63D62BEACDA6000119EE /* Drink.swift */; };
+		1F4A63D92BEACF94000119EE /* CoffeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A63D82BEACF94000119EE /* CoffeeData.swift */; };
+		1F4A63DB2BEACFE8000119EE /* HealthKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A63DA2BEACFE8000119EE /* HealthKitController.swift */; };
+		1F4A63DD2BEAD171000119EE /* DrinkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A63DC2BEAD171000119EE /* DrinkType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		1F4A63CD2BEACB18000119EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F4A63D42BEACD80000119EE /* CoffeeDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDataStore.swift; sourceTree = "<group>"; };
 		1F4A63D62BEACDA6000119EE /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		1F4A63D82BEACF94000119EE /* CoffeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeData.swift; sourceTree = "<group>"; };
+		1F4A63DA2BEACFE8000119EE /* HealthKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitController.swift; sourceTree = "<group>"; };
+		1F4A63DC2BEAD171000119EE /* DrinkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				1F4A63CA2BEACB18000119EE /* Assets.xcassets */,
 				1F4A63CC2BEACB18000119EE /* Preview Content */,
 				1F4A63D42BEACD80000119EE /* CoffeeDataStore.swift */,
+				1F4A63D82BEACF94000119EE /* CoffeeData.swift */,
+				1F4A63DC2BEAD171000119EE /* DrinkType.swift */,
+				1F4A63DA2BEACFE8000119EE /* HealthKitController.swift */,
 				1F4A63D62BEACDA6000119EE /* Drink.swift */,
 			);
 			path = CaufeeTrakr;
@@ -145,6 +154,9 @@
 			files = (
 				1F4A63D52BEACD80000119EE /* CoffeeDataStore.swift in Sources */,
 				1F4A63C92BEACB16000119EE /* ContentView.swift in Sources */,
+				1F4A63DB2BEACFE8000119EE /* HealthKitController.swift in Sources */,
+				1F4A63D92BEACF94000119EE /* CoffeeData.swift in Sources */,
+				1F4A63DD2BEAD171000119EE /* DrinkType.swift in Sources */,
 				1F4A63D72BEACDA6000119EE /* Drink.swift in Sources */,
 				1F4A63C72BEACB16000119EE /* CaufeeTrakrApp.swift in Sources */,
 			);
