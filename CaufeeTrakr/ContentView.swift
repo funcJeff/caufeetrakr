@@ -22,8 +22,8 @@ struct ContentView: View {
     var body: some View {
         CoffeeTrackerView()
             .environmentObject(data)
-            .onChange(of: scenePhase) { (phase) in
-                switch phase {
+            .onChange(of: scenePhase, initial: true) { (_, newPhase) in
+                switch newPhase {
                 
                 case .inactive:
                     logger.debug("Scene became inactive.")
