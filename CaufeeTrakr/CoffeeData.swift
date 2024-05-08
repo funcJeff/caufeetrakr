@@ -12,7 +12,7 @@ import SwiftUI
 @MainActor
 class CoffeeData: ObservableObject {
     private let floatFormatter = FloatingPointFormatStyle<Double>().precision(.significantDigits(1...3))
-    let logger = Logger(subsystem: "lol.jmtechwork.CaufeeTrakr.CoffeeData", category: "Model")
+    let logger = Logger(subsystem: "com.fwps.CaufeeTrakr.CoffeeData", category: "Model")
     
     // The data model needs to be accessed both from the app extension
     // and from the complication controller.

@@ -11,7 +11,7 @@ import SwiftUI
 // A wrapper view that simplifies adding the main view to the hosting controller.
 struct ContentView: View {
     
-    let logger = Logger(subsystem: "lol.jmtechwork.CaufeeTrakr.ContentView", category: "Root View")
+    let logger = Logger(subsystem: "com.fwps.CaufeeTrakr.ContentView", category: "Root View")
     
     @Environment(\.scenePhase) private var scenePhase
     

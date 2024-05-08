@@ -25,7 +25,7 @@ private let miligrams = HKUnit.gramUnit(with: .milli)
 
 actor HealthKitController {
     
-    let logger = Logger(subsystem: "lol.jmtechwork.CaufeeTrakr..HealthKitController",
+    let logger = Logger(subsystem: "com.fwps.CaufeeTrakr..HealthKitController",
                         category: "HealthKit")
     
     // MARK: - Properties

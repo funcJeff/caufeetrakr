@@ -9,7 +9,7 @@ import os
 import Foundation
 
 actor CoffeeDataStore {
-    let logger = Logger(subsystem: "clol.jmtechwork.CaufeeTrakr.CoffeeDataStore", category: "ModelIO")
+    let logger = Logger(subsystem: "ccom.fwps.CaufeeTrakr.CoffeeDataStore", category: "ModelIO")
     
     // Use this value to determine whether you have changes that can be saved to disk.
     private var savedValue: [Drink] = []
